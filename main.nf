@@ -9,6 +9,8 @@ process sayHello {
   script:
     """
     echo '$x world!'
+	echo 'sleeping for 100hours'
+	sleep 360000
     """
 }
 
